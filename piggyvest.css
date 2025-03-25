@@ -1,0 +1,64 @@
+#logo{
+    width: 250px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(98, 105, 111);
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #fff;
+}
+
+.child1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.button{
+    border-radius: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-size:medium;
+    cursor: pointer;
+}
+
+.but1{
+    background-color: white;
+    border: black 1px solid;
+    width: 150px;
+    margin-right: 20px;
+    color: black;
+}
+
+.but2{
+    background-color: rgb(18,34,49);
+    width: 450px;
+    color: white;
+
+}
+
+.but1:hover{
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.but2:hover{
+    background-color: white;
+    color: rgb(18,34,49);
+}
